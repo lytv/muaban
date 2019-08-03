@@ -1,4 +1,4 @@
-# eCommerce Shop Django Project
+# Solid Racing Shop Django Project
 
 
 ### Development Steps
@@ -28,14 +28,14 @@
 
 
 ### Installations
-- git clone https://github.com/hereshem/django-ecommerce
-- cd django-ecommerce
+- git clone https://github.com/lytv/muaban.git
+- cd muaban
 - pip install -r requirements.txt
 - python manage.py migrate
 - python manage.py runserver
 
 
-### eCommerce Project Features Listing
+### Solid Racing Project Features Listing
 - Admin adds the category and products
 - Browses all the products and categories
 - User can signup and login

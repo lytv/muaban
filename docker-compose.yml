@@ -1,0 +1,14 @@
+version: "3"
+services:
+  django:
+    container_name: SR_server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: solid_racing_server
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/var/www/muaban
+    ports:
+      - "8000:8000"

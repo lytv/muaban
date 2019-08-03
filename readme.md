@@ -28,7 +28,7 @@
 
 
 ### Installations
-- git clone https://github.com/lytv/muaban
+- git clone https://github.com/lytv/muaban.git
 - cd muaban
 - pip install -r requirements.txt
 - python manage.py migrate
